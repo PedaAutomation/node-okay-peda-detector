@@ -1,0 +1,26 @@
+{
+  "name": "okay-peda-detector",
+  "version": "0.0.0",
+  "description": "A device which detects when you say \"okay-peda\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PedaAutomation/node-okay-peda-detector.git"
+  },
+  "keywords": [
+    "okay",
+    "peda",
+    "automation",
+    "java",
+    "yolo"
+  ],
+  "author": "Jan-Henrik Bruhn <jh.bruhn@me.com> (https://jhbruhn.de/)",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/PedaAutomation/node-okay-peda-detector/issues"
+  },
+  "homepage": "https://github.com/PedaAutomation/node-okay-peda-detector"
+}
