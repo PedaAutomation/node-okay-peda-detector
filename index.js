@@ -8,7 +8,9 @@ function OkayPedaDetector() {
     var command = this.command = jreRunner.runJava(['-jar', __dirname + '/okay-peda.jar']);
 
     command.stdout.on("data", function(data) {
-      self.emit("hotword", data);
+      var data = data.toString();
+      if(data.indexOf("okay peda") > -1)
+        self.emit("hotword", data);
     });
 
     command.on('close', function (code) {
