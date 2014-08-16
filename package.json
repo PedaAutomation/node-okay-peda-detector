@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/PedaAutomation/node-okay-peda-detector/issues"
   },
+  "dependencies": {
+    "jre-runner": "PedaAutomation/node-jre-runner"
+  },
   "homepage": "https://github.com/PedaAutomation/node-okay-peda-detector"
 }
